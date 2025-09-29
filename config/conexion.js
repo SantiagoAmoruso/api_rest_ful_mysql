@@ -9,7 +9,7 @@ const pool = mysql.createPool({
 
 pool.getConnection()
 .then(Connection =>{
-    console.log('conexiom exitosa')
+    console.log('CONEXION EXITOSA')
     Connection.release
 })
 .catch(error =>{
